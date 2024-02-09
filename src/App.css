@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=PT+Serif:wght@400;700&family=REM:wght@100&family=Roboto:ital,wght@0,100;0,300;0,900;1,100&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color:#f2f2f2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  p {
+   font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.demo-header{
+ font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:24px;
 }
-
-.App-link {
-  color: #61dafb;
+.para{
+  width:50%;
+  padding:0 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal-content-reed{
+  background:#fff;
+  width:35%;
 }
