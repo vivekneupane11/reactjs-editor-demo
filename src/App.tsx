@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <h1 style={{color:'blue'}}>REACTJS-EDITOR</h1>
   <Editor
         /** htmlContent accepts only one element. Just wrap everything on one element **/
         htmlContent={`<main>
